@@ -47,8 +47,8 @@ task zip(type:Zip) {
 	exclude '.settings'
 	exclude 'bin'
 	exclude 'build' 
-	filter { line -> line.startsWith('twitter.consumerKey=') ? 'twitter.consumerKey=<<ask Twitter for a key>>' : line }
-	filter { line -> line.startsWith('twitter.consumerSecret=') ? 'twitter.consumerSecret=<<ask Twitter for a key>>' : line }
-	filter { line -> line.startsWith('twitter.accessToken=') ? 'twitter.accessToken=<<ask Twitter for a key>>' : line }
-	filter { line -> line.startsWith('twitter.accessTokenSecret=') ? 'twitter.accessTokenSecret=<<ask Twitter for a key>>' : line }
+	filter { line -> line.startsWith('twitter.consumerKey=') ? 'twitter.consumerKey=cRGW6UJbSH2SJ213akS9y8N4U' : line }
+	filter { line -> line.startsWith('twitter.consumerSecret=') ? 'twitter.consumerSecret=8seNqxSJ86p1GlaHitC8gDd7ZLvdGe65gzpWCFK9bRn5U65QJM' : line }
+	filter { line -> line.startsWith('twitter.accessToken=') ? 'twitter.accessToken=103428008-1Jmjk9pObfzNATO942BlULJhvMfraccRNVSr2BoD' : line }
+	filter { line -> line.startsWith('twitter.accessTokenSecret=') ? 'twitter.accessTokenSecret=8ozWjN6NLCQb9bBsobn0nQllTds7ayZ27P6ViTjyHIn8X' : line }
 }
