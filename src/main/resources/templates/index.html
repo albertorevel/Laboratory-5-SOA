@@ -28,16 +28,43 @@ th:src="@{/webjars/jquery/2.1.3/jquery.min.js}"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script id="template" type="x-tmpl-mustache">
 {{#.}}
- <div class="row panel panel-default">
+ <div class="row panel panel-primary ">
   <div class="panel-heading">
-  <img src="{{user.biggerProfileImageURL}}" alt="profile image"/>
-   <a href="https://twiter.com/{{user.screenName}}" target="_blank"><b>@{{user.screenName}}</b></a>
-   {{user.followersCount}} followers.
-   <div class="pull-right">
-    Followers count:
+<div class="container panel-container">
+   <div class="col-xs-1 text-left">
+		<img src="{{user.biggerProfileImageURL}}" alt="profile image" height="50" width="50"/>
+   </div>
+   <div class="col-xs-9 text-left">
+   <div class="row">
+   {{user.name}}
+   </div>
+   <div class="row">
+   <a href="https://twiter.com/{{user.screenName}}" target="_blank" style="color:white"><b>@{{user.screenName}}</b></a>
+   </div>
+   </div>
+   <div class="col-xs-2 text-left">
+   <div class="row">
+   Following: {{user.friendsCount}}
+    </div>
+	<div class="row">
+   Followers: {{user.followersCount}}
+    </div>
    </div>
   </div>
+ </div>
   <div class="panel-body">{{text}}</div>
+  
+  <div class="panel-footer">
+  <div class="container panel-container">
+		<div class="col-xs-2 text-center">
+			Retweets: {{retweetCount}}
+		</div>
+		<div class="col-xs-2 text-left">
+			Favorites: {{favoriteCount}}
+		</div>
+		
+  </div>
+  </div>
  </div>
  {{/.}}
 </script>
