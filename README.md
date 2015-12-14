@@ -22,7 +22,7 @@ Iñigo Gascón Royo | 685215
 Adrian Susinos Moreno | 650220 | [repo](https://github.com/ader9/Laboratory-5-SOA)
 Santiago Gil Begué | 683482 | [repo](https://github.com/Santi-7/Laboratory-5-SOA)
 Carlos Escuín Blasco | 545003 | [repo](https://github.com/xarlieskin/Laboratory-5-SOA)
-Alberto Revel | 628704 | [repo](https://github.com/albertorevel/Laboratory-5-SOA) | UI improved with user info and tweet info
+Alberto Revel | 628704 | [repo](https://github.com/albertorevel/Laboratory-5-SOA) | UI improved with user info and tweet info | :gift:
 Raul Piracés Alastuey | 490790 | [repo](https://github.com/piraces/Laboratory-5-SOA)
 Adrián Moreno Jimeno | 631537 | [repo](https://github.com/Adriem/Laboratory-5-SOA)
 Alberto Sabater Bailón | 546297 | [repo](https://github.com/asabater94/Laboratory-5-SOA) | UI and search functionalities improved | :gift:
