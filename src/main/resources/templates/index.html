@@ -30,9 +30,11 @@ th:src="@{/webjars/jquery/2.1.3/jquery.min.js}"></script>
 {{#.}}
  <div class="row panel panel-default">
   <div class="panel-heading">
+  <img src="{{user.biggerProfileImageURL}}" alt="profile image"/>
    <a href="https://twiter.com/{{user.screenName}}" target="_blank"><b>@{{user.screenName}}</b></a>
+   {{user.followersCount}} followers.
    <div class="pull-right">
-    Followers count: {{user.followersCount}}
+    Followers count:
    </div>
   </div>
   <div class="panel-body">{{text}}</div>
